@@ -14,8 +14,9 @@ manage-ec2 uses configruation file created by the AWS cli. e.g.
 
 ## Running
 
-`pipenv run python manage-ec2/manage-ec2.py <command>
+`pipenv run python manage-ec2/manage-ec2.py <command> <subcommand>
 <--project=PORJECT>`
 
-*command* is list, start, or stop
+*command* is instances, volumes, or snapshots
+*subcommand* - depends on commmand
 *project* is optional
